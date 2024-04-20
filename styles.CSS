@@ -1,0 +1,36 @@
+/* Add your custom CSS styles here */
+body {
+    background: linear-gradient(135deg, #5692d8, #363795); /* Gradient background */
+  }
+  
+  .container {
+    padding: 100px;
+  }
+  
+  h1 {
+    font-family: 'Roboto', sans-serif; /* Custom font for heading */
+    color: rgb(247, 243, 243); /* Text color */
+  }
+  
+  p {
+    font-family: 'Open Sans', sans-serif; /* Custom font for paragraphs */
+    color: hwb(300 91% 7%); /* Text color */
+  }
+  
+  .btn {
+    background-color: #ff6600; /* Button background color */
+    color: rgb(94, 96, 236); /* Button text color */
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    font-family: 'Montserrat', sans-serif; /* Custom font for button */
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #ff8533; /* Button background color on hover */
+  }
+  
